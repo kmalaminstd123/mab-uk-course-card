@@ -144,7 +144,7 @@
     transform: translateX(-50%) translateY(50%);
     width: 40%;
     height: 100%;
-    background: linear-gradient(0deg, #1a3e4e 100%);
+    background: linear-gradient(0deg, #8f653b 100%);
     animation: rotateBgCol 3s linear infinite;
     z-index: -1;
     transform-origin: top;
