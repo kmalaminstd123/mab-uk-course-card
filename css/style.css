@@ -44,7 +44,8 @@
 
 .course-card .text-muted {
     font-size: 0.95rem;
-    color: #444 !important;
+    /* color: #444 !important; */
+    color: #8f653b;
 }
 
 .course-card .learning-type .badge {
@@ -92,6 +93,11 @@
 
 .course-card .btn-link:hover {
     text-decoration: underline;
+}
+
+.mba-course-btn:hover{
+    background-color: #215165 !important;
+    border-color: #215165 !important;
 }
 
 /* Social Links */
@@ -169,9 +175,15 @@
     border-color: #215165;
 }
 
-.course-card.fancy-card .btn-dark:hover {
-    background-color: #000;
-    border-color: #000;
+.course-req-btn{
+    background-color: #8f653b;
+    color: #fff !important;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.course-req-btn:hover{
+    background-color: #8f653b;
 }
 
 /* course card css end */
